@@ -17,7 +17,7 @@ The GDSC dataset is one of the largest publicly available cancer pharmacogenomic
 ## project structure 
 `
 cancer-drug-sensitivity/
-    cancer-drug-sensitivity.ipynb          # Full notebook with all models, plots, and writeups
+      cancer-drug-sensitivity.ipynb          # Full notebook with all models, plots, and writeups
 ` 
 
 ## main findings: 
