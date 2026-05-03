@@ -17,9 +17,7 @@ The GDSC dataset is one of the largest publicly available cancer pharmacogenomic
 ## project structure 
 `
 cancer-drug-sensitivity/
-    assignment.ipynb          # Full notebook with all models, plots, and writeups
-    Cell_line_RMA_proc_basalExp.txt.zip    # Gene expression data (17,737 genes x 962 cell lines)
-    TableS4A_ic50.txt.gz      # IC50 drug sensitivity measurements (962 cell lines x 266 drugs)
+    cancer-drug-sensitivity.ipynb          # Full notebook with all models, plots, and writeups
 ` 
 
 ## main findings: 
