@@ -15,10 +15,10 @@ The GDSC dataset is one of the largest publicly available cancer pharmacogenomic
 - Multitask Dense Neural Network --> One network trained simultaneously across all 217 drugs, outputting predictions for every compound in a single forward pass. Missing IC50 values are masked out during training using observation weights so they don't affect the loss. Network depth and width are systematically varied to find the best architecture.
 
 ## project structure 
-`
+```
 cancer-drug-sensitivity/
       cancer-drug-sensitivity.ipynb          # Full notebook with all models, plots, and writeups
-` 
+```
 
 ## main findings: 
 - Ridge vs LASSO: Both achieve similar test R² on the held-out set, but LASSO coefficients are far more concentrated near zero, suggesting only a small number of genes drive most of the predicted sensitivity for any given drug.
