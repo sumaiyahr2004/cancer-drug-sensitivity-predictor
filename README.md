@@ -27,11 +27,11 @@ cancer-drug-sensitivity/
 - Depth vs Width: Deeper networks (3-4 hidden layers) with moderate width (32 units) outperform wider but shallower networks on the multitask problem. Adding L2 regularization to the neural network reduces validation loss slightly compared to the unregularized baseline.
 
 ## tools used: 
-- PyTorch — all model training runs on GPU via CUDA
-- pandas / numpy — data loading and preprocessing
-- matplotlib / seaborn — plotting loss curves, ROC curves, scatter plots
-- scipy — Pearson correlation for regression evaluation
-- Google Colab — GPU environment
+- PyTorch (all model training runs on GPU via CUDA)
+- pandas / numpy (data loading and preprocessing)
+- matplotlib / seaborn (plotting loss curves, ROC curves, scatter plots)
+- scipy (Pearson correlation for regression evaluation)
+- Google Colab (GPU environment)
 
 ## How to Run
 For detailed infomration on how to run this project, please reach out to me at sr3986@columbia.edu 
